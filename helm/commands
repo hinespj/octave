@@ -1,0 +1,15 @@
+helm install octave pingidentity/ping-devops -f octave.yaml
+
+helm upgrade --install octave pingidentity/ping-devops -f octave.yaml
+
+helm uninstall octave
+
+https://pingfederate-admin-octave.ping-devops.com:443/pingfederate/app?service=finishsso
+
+
+https://pingfederate-engine-octave.ping-devops.com
+
+git add .
+git commit -m "Add new files"
+git push
+
