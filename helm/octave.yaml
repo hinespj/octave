@@ -55,7 +55,7 @@ pingfederate-admin:
   envs:
     PF_LOG_LEVEL: DEBUG
     PING_IDENTITY_PASSWORD: 2FederateM0re
-    SERVER_PROFILE_URL: https://github.com/chrisleggett/p1-sso-policy.git
+    SERVER_PROFILE_URL: https://github.com/hinespj/octave.git
     SERVER_PROFILE_PATH: server-profile/pf-sso-policy-full
 
 ############################################################
@@ -101,7 +101,7 @@ pingfederate-engine:
   envs:
     PF_LOG_LEVEL: DEBUG
     PING_IDENTITY_PASSWORD: 2FederateM0re
-    SERVER_PROFILE_URL: https://github.com/chrisleggett/p1-sso-policy.git
+    SERVER_PROFILE_URL: https://github.com/hinespj/octave.git
     SERVER_PROFILE_PATH: server-profile/pf-sso-policy-full
     PF_ADMIN_PORT: "443"
     PF_ADMIN_PUBLIC_HOSTNAME: pingfederate-admin-octave.ping-devops.com
