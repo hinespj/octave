@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ldap:ldap-sources xmlns:ldap="http://pingidentity.com/2004/09/ldap-ds">
+    <ldap:ldap-source id="LDAP-0AE6268B90303FED9BC07639B13CF444B5149E61" maskAttributeValues="false" ldapType="PingDirectory" ldapTypeDesc="PingDirectory" testOnBorrow="false" testOnReturn="false" createIfNecessary="true" minIdle="10" maxActive="100" maxWait="-1" timeBetweenEvictionRunsMillis="60000" readTimeoutMillis="3000" connTimeoutMillis="3000" verifyHost="true" dnsTtlMillis="60000" ldapDnsSrvPrefix="_ldap._tcp" ldapsDnsSrvPrefix="_ldaps._tcp">
+        <ldap:host>octave-pingdirectory-cluster</ldap:host>
+        <ldap:principal>cn=pingfederate</ldap:principal>
+        <ldap:use-ssl>false</ldap:use-ssl>
+        <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
+        <ldap:ad-referral>false</ldap:ad-referral>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoic1VhZzBNVmxveiIsInZlcnNpb24iOiIxMC4yLjEuMSJ9..HcVDbhAIveSmawXY0B62yg.kJtoLwgmBhh5tjvHNkQa7Q.giOLbry6qNdXBGox7N17_A</ldap:credentials>
+        <ldap:authenticationMeth>simple</ldap:authenticationMeth>
+        <ldap:description>octave-pingdirectory-cluster</ldap:description>
+        <ldap:name>octave-pingdirectory-cluster</ldap:name>
+        <ldap:binaryAttributes/>
+        <ldap:ldapHostTagList>
+            <ldap:tagEntry host="octave-pingdirectory-cluster" tags=""/>
+        </ldap:ldapHostTagList>
+    </ldap:ldap-source>
 </ldap:ldap-sources>

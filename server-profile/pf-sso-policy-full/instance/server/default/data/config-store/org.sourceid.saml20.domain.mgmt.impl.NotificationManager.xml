@@ -4,16 +4,10 @@
     <con:item name="EnableEmailPasswordNotification">false</con:item>
     <con:item name="EnableCertificateExpirationNotification">false</con:item>
     <con:item name="EnableMetadataEventNotification">false</con:item>
-    <con:item name="SMTPPort">25</con:item>
-    <con:item name="SSLSMTPPort">465</con:item>
-    <con:item name="Timeout"/>
-    <con:item name="RetryAttempts">2</con:item>
-    <con:item name="RetryDelay">2</con:item>
     <con:item name="UseSSL">false</con:item>
     <con:item name="UseTLS">false</con:item>
     <con:item name="VerifyHostname">false</con:item>
     <con:item name="UseDebugging">false</con:item>
-    <con:item name="NotificationFrom"/>
     <con:item name="NotificationTo"/>
     <con:item name="NotificationCertificateExpirationTo"/>
     <con:item name="NotificationCertInitialEvent"/>
@@ -22,7 +16,6 @@
     <con:item name="NotificationPublisherCertificates"/>
     <con:item name="NotificationPublisherLicensing"/>
     <con:item name="NotificationPublisherMetadata"/>
-    <con:item name="NotificationPublisherAccountChanges"/>
     <con:item name="SmsProviderAccountId"/>
     <con:item name="SmsProviderFromNumber"/>
 </con:config>
