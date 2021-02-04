@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<cus:custom-sources xmlns:cus="http://pingidentity.com/2006/03/custom-ds">
-    <cus:custom-source id="Other-8961EDCC35861411BDC669DFADCCB131B06D08C5" description="PingOneDS" driverClassName="com.pingidentity.plugins.datastore.p14c.PingOneForCustomersDataStore" maskAttributeValues="false"/>
-</cus:custom-sources>
