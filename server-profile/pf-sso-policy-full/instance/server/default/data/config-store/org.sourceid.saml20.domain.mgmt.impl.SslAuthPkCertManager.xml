@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="PingOne"/>
+    <con:map name="PF_Single_Factor"/>
+    <con:map name="PF_Multi_Factor"/>
+    <con:map name="PF_Iovation_Risk"/>
+    <con:map name="PF_BehavioSec"/>
+    <con:map name="PF_BehavioSec_Iovation"/>
+    <con:map name="PF_Iovation"/>
+    <con:map name="PF_Network_Check"/>
+</con:config>
